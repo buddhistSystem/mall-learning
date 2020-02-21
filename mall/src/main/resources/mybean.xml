@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="Student" class="com.gx.demo.ioc.entity.Student">
+        <property name="name" value="Tom" />
+        <property name="idCard" value="1402241995" />
+    </bean>
+    <bean id="StudentService" class="com.gx.demo.ioc.service.StudentService">
+        <property ref="Student" />
+    </bean>
+</beans>
