@@ -6,11 +6,9 @@ package test.aop;
  * @Description:
  */
 public class AcotrTwo {
-
     void film(){
         System.out.println("拍片");
     }
-
     void stop(){
         System.out.println("休息");
     }

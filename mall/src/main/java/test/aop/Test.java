@@ -22,15 +22,15 @@ public class Test {
 
         //jdk动态代理
         //被代理的对象必须实现接口
-//        ActorImpl actor = new ActorImpl();
-//        Actor proxy = (Actor) new ActorJdkProxyFactory(actor).getProxyInstance();
-//        proxy.film();
+        ActorImpl actor1 = new ActorImpl();
+        Actor proxy = (Actor) new ActorJdkProxyFactory(actor1).getProxyInstance();
+        proxy.film();
 
         //cglib动态代理
         AcotrTwo acotrTwo = new AcotrTwo();
-        AcotrTwo proxy = (AcotrTwo) new ActorTwoCglibProxyFactory(acotrTwo).getProxyInstance();
-        proxy.film();
-        proxy.stop();
+        AcotrTwo proxy1 = (AcotrTwo) new ActorTwoCglibProxyFactory(acotrTwo).getProxyInstance();
+        proxy1.film();
+        proxy1.stop();
     }
 
 }

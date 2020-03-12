@@ -6,7 +6,6 @@ package test.aop;
  * @Description: 演员的实现类
  */
 public class ActorImpl implements Actor {
-
     @Override
     public void film() {
         System.out.println("开始拍片");

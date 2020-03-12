@@ -1,8 +1,9 @@
 package test.ioc;
 
-import com.gx.demo.ioc.entity.Student;
-import com.gx.demo.ioc.iocfactory.impl.MyClassPathXmlApplicationContext;
-import com.gx.demo.ioc.service.StudentService;
+
+import test.ioc.entity.Student;
+import test.ioc.iocfactory.impl.MyClassPathXmlApplicationContext;
+import test.ioc.service.StudentService;
 
 /**
  * @Author: Administrator

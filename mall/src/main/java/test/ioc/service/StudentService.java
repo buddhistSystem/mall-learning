@@ -1,7 +1,7 @@
 package test.ioc.service;
 
 
-import com.gx.demo.ioc.entity.Student;
+import test.ioc.entity.Student;
 
 public class StudentService {
 
