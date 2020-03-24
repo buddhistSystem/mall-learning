@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://rm-2zes869c0s98yg00foo.mysql.rds.aliyuncs.com:3306/mall_test?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/mall_test?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: root
     password: 123456
     druid:
@@ -13,10 +13,10 @@ spring:
         login-username: druid
         login-password: druid
   rabbitmq: #rabbitmq相关配置
-    host: localhost
+    host: 112.74.59.132
     port: 5672
-    username: liqian
-    password: liqian
+    username: guest
+    password: guest
 logging:
   level:
     root: info #日志配置DEBUG,INFO,WARN,ERROR
