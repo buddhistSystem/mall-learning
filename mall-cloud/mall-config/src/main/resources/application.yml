@@ -12,7 +12,7 @@ spring:
           search-locations: classpath:/config/{application}
         git: #Git仓库存储
           uri: https://gitee.com/macrozheng/mall-config.git
-          username: macro
+          username: root
           password: 123456
           clone-on-start: true
           search-paths: '{application}'

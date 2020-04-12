@@ -69,6 +69,7 @@ public class EsProductServiceImpl implements EsProductService {
             }
             esProductRepository.deleteAll(esProductList);
         }
+        esProductRepository.deleteAll();
     }
 
     @Override

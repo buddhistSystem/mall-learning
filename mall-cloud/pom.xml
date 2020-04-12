@@ -46,6 +46,7 @@
         <module>mall-config</module>
         <module>mall-security</module>
         <module>mall-admin</module>
+        <module>mall-getaway</module>
     </modules>
 
     <dependencies>

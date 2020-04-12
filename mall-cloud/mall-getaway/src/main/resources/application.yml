@@ -1,0 +1,17 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: mall-gateway
+  profiles:
+    active: dev
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true # π”√–°–¥service-id
+
+logging:
+  level:
+    org.springframework.cloud.gateway: debug

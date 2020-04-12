@@ -1,5 +1,6 @@
 package test.thread;
 
+
 import java.util.concurrent.CountDownLatch;
 
 public class CountDownLatchTest {
