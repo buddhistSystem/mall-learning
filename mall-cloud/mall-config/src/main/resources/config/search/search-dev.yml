@@ -18,6 +18,7 @@ spring:
         enabled: true
       cluster-nodes: 127.0.0.1:9300
       cluster-name: elasticsearch
+
 logging:
   level:
     root: info #日志配置DEBUG,INFO,WARN,ERROR
@@ -27,3 +28,12 @@ mybatis:
   mapper-locations:
     - classpath:mapper/*.xml
     - classpath*:com/**/mapper/*.xml
+
+management: #开启SpringBoot Admin的监控
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

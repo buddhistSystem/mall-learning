@@ -45,8 +45,10 @@
         <module>mall-registry</module>
         <module>mall-config</module>
         <module>mall-security</module>
-        <module>mall-admin</module>
         <module>mall-getaway</module>
+        <module>mall-monitor</module>
+        <module>mall-admin</module>
+        <module>mall-search</module>
     </modules>
 
     <dependencies>
